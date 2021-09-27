@@ -95,14 +95,14 @@
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-12-09"></div>
                                             </div>
                                             <a href="item-details.php">
-                                                <h5 class="mb-0">Virtual Worlds</h5>
+                                                <h5 class="mb-0">Collectibles</h5>
                                             </a>
                                             <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
-                                                <span class="ml-2">@Richard</span>
+                                                <span class="ml-2">@nejc26</span>
                                             </a>
                                             <div class="card-bottom d-flex justify-content-between">
-                                                <span>1.5 BNB</span>
+                                                <span>1.5 ETH</span>
                                                 <span>1 of 1</span>
                                             </div>
                                         </div>
@@ -129,10 +129,10 @@
                                             </a>
                                             <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
-                                                <span class="ml-2">@JohnDeo</span>
+                                                <span class="ml-2">@luvinreal</span>
                                             </a>
                                             <div class="card-bottom d-flex justify-content-between">
-                                                <span>2.7 BNB</span>
+                                                <span>2.7 ETH</span>
                                                 <span>1 of 1</span>
                                             </div>
                                         </div>
@@ -152,17 +152,17 @@
                                         <!-- Card Body -->
                                         <div class="card-body">
                                             <div class="countdown-times mb-3">
-                                                <div class='countdown d-flex justify-content-center' data-date="2021-09-15"></div>
+                                                <div class='countdown d-flex justify-content-center' data-date="2021-11-23"></div>
                                             </div>
                                             <a href="item-details.php">
-                                                <h5 class="mb-0">Arts</h5>
+                                                <h5 class="mb-0">Collectibles</h5>
                                             </a>
                                             <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
-                                                <span class="ml-2">@MKHblots</span>
+                                                <span class="ml-2">@hojnik15</span>
                                             </a>
                                             <div class="card-bottom d-flex justify-content-between">
-                                                <span>2.3 BNB</span>
+                                                <span>2.5 ETH</span>
                                                 <span>1 of 1</span>
                                             </div>
                                         </div>
@@ -185,14 +185,14 @@
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-12-29"></div>
                                             </div>
                                             <a href="item-details.php">
-                                                <h5 class="mb-0">Robotic Arts</h5>
+                                                <h5 class="mb-0">Collectibles</h5>
                                             </a>
                                             <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
-                                                <span class="ml-2">@RioArham</span>
+                                                <span class="ml-2">@venja_balazic</span>
                                             </a>
                                             <div class="card-bottom d-flex justify-content-between">
-                                                <span>1.8 BNB</span>
+                                                <span>1.8 ETH</span>
                                                 <span>1 of 1</span>
                                             </div>
                                         </div>
@@ -215,14 +215,14 @@
                                                 <div class='countdown d-flex justify-content-center' data-date="2022-01-24"></div>
                                             </div>
                                             <a href="item-details.php">
-                                                <h5 class="mb-0">Design Illusions</h5>
+                                                <h5 class="mb-0">Collectibles</h5>
                                             </a>
                                             <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
-                                                <span class="ml-2">@ArtNox</span>
+                                                <span class="ml-2">@kkkukec</span>
                                             </a>
                                             <div class="card-bottom d-flex justify-content-between">
-                                                <span>1.7 BNB</span>
+                                                <span>1.7 ETH</span>
                                                 <span>1 of 1</span>
                                             </div>
                                         </div>
@@ -245,14 +245,14 @@
                                                 <div class='countdown d-flex justify-content-center' data-date="2022-03-30"></div>
                                             </div>
                                             <a href="item-details.php">
-                                                <h5 class="mb-0">Design Illusions</h5>
+                                                <h5 class="mb-0">Collectibles</h5>
                                             </a>
                                             <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
-                                                <span class="ml-2">@ArtNox</span>
+                                                <span class="ml-2">@zan3110</span>
                                             </a>
                                             <div class="card-bottom d-flex justify-content-between">
-                                                <span>1.7 BNB</span>
+                                                <span>1.7 ETH</span>
                                                 <span>1 of 1</span>
                                             </div>
                                         </div>
@@ -291,8 +291,8 @@
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.php">@Richard</a>
-                                    <span>1.5 BNB</span>
+                                    <a class="seller mb-2" href="author.php">@nejc26</a>
+                                    <span>56.6 ETH</span>
                                 </div>
                             </div>
                         </div>
@@ -306,8 +306,8 @@
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.php">@JohnDeo</a>
-                                    <span>1.5 BNB</span>
+                                    <a class="seller mb-2" href="author.php">@luvinreal</a>
+                                    <span>42.2 ETH</span>
                                 </div>
                             </div>
                         </div>
@@ -321,8 +321,8 @@
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.php">@Junaid</a>
-                                    <span>1.5 BNB</span>
+                                    <a class="seller mb-2" href="author.php">@hojnik15</a>
+                                    <span>35.3 ETH</span>
                                 </div>
                             </div>
                         </div>
@@ -336,8 +336,8 @@
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.php">@Yasmin</a>
-                                    <span>1.5 BNB</span>
+                                    <a class="seller mb-2" href="author.php">@venja_balazic</a>
+                                    <span>32.7 ETH</span>
                                 </div>
                             </div>
                         </div>
@@ -351,8 +351,8 @@
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.php">@ArhamH</a>
-                                    <span>1.5 BNB</span>
+                                    <a class="seller mb-2" href="author.php">@kkkukec</a>
+                                    <span>21.8 ETH</span>
                                 </div>
                             </div>
                         </div>
@@ -366,8 +366,8 @@
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.php">@Richard</a>
-                                    <span>1.5 BNB</span>
+                                    <a class="seller mb-2" href="author.php">@zan3110</a>
+                                    <span>23.5 ETH</span>
                                 </div>
                             </div>
                         </div>
@@ -630,12 +630,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Walking On Air</h5>
+                                        <h5 class="mb-0">Purple Dragonoid</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Richard</h6>
+                                            <h6 class="ml-2 mb-0">lanamurko</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -659,12 +659,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Domain Names</h5>
+                                        <h5 class="mb-0">Silver Ninja</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">John Deo</h6>
+                                            <h6 class="ml-2 mb-0">luvinreal</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -688,12 +688,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Trading Cards</h5>
+                                        <h5 class="mb-0">Flaming angel</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Arham</h6>
+                                            <h6 class="ml-2 mb-0">hojnik15</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -717,12 +717,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Industrial Revolution</h5>
+                                        <h5 class="mb-0">Son Of Poseidon</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Yasmin</h6>
+                                            <h6 class="ml-2 mb-0">venja_balazic</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -746,12 +746,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Utility</h5>
+                                        <h5 class="mb-0">Nature Healer</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Junaid</h6>
+                                            <h6 class="ml-2 mb-0">kkkukec</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -775,12 +775,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Sports</h5>
+                                        <h5 class="mb-0">Pumpkin Spice</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">ArtNox</h6>
+                                            <h6 class="ml-2 mb-0">zan3110</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -804,12 +804,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Cartoon Heroes</h5>
+                                        <h5 class="mb-0">Shaman Of Nature</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Junaid</h6>
+                                            <h6 class="ml-2 mb-0">kkkukec</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -833,12 +833,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Gaming Chair</h5>
+                                        <h5 class="mb-0">Sky Butterfly</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Johnson</h6>
+                                            <h6 class="ml-2 mb-0">valjarh</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -862,12 +862,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Utility</h5>
+                                        <h5 class="mb-0">Nature Healer</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Junaid</h6>
+                                            <h6 class="ml-2 mb-0">kkkukec</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -891,12 +891,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Sports</h5>
+                                        <h5 class="mb-0">Pumpkin Spice</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">ArtNox</h6>
+                                            <h6 class="ml-2 mb-0">zan3110</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -920,12 +920,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Cartoon Heroes</h5>
+                                        <h5 class="mb-0">Shaman Of Nature</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Junaid</h6>
+                                            <h6 class="ml-2 mb-0">kkkukec</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -949,12 +949,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Gaming Chair</h5>
+                                        <h5 class="mb-0">Sky Butterfly</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Johnson</h6>
+                                            <h6 class="ml-2 mb-0">valjarh</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
