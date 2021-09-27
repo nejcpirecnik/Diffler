@@ -24,26 +24,6 @@
 <body>
     <div class="main">
         <?php include 'header.php' ?>
-        <!-- ***** Breadcrumb Area Start ***** -->
-        <section class="breadcrumb-area overlay-dark d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Breamcrumb Content -->
-                        <div class="breadcrumb-content text-center">
-                            <h2 class="m-0">Create</h2>
-                            <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                                <li class="breadcrumb-item active">Create</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Breadcrumb Area End ***** -->
-
         <!-- ***** Create Area Start ***** -->
         <section class="author-area">
             <div class="container">
@@ -100,7 +80,7 @@
                         <!-- Intro -->
                         <div class="intro mt-5 mt-lg-0 mb-4 mb-lg-5">
                             <div class="intro-content">
-                                <span>Get Started</span>
+                                <span>Share your creation with the world!</span>
                                 <h3 class="mt-3 mb-0">Create Item</h3>
                             </div>
                         </div>
@@ -171,104 +151,7 @@
             </div>
         </section>
         <!-- ***** Create Area End ***** -->
-
-        <!--====== Footer Area Start ======-->
-        <footer class="footer-area">
-            <!-- Footer Top -->
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-lg-3 res-margin">
-                            <!-- Footer Items -->
-                            <div class="footer-items">
-                                <!-- Logo -->
-                                <a class="navbar-brand" href="index.php">
-                                    <img src="assets/img/logo/logo.png" alt="">
-                                </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
-                                <!-- Social Icons -->
-                                <div class="social-icons d-flex">
-                                    <a class="facebook" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a class="twitter" href="#">
-                                        <i class="fab fa-twitter"></i>
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a class="google-plus" href="#">
-                                        <i class="fab fa-google-plus-g"></i>
-                                        <i class="fab fa-google-plus-g"></i>
-                                    </a>
-                                    <a class="vine" href="#">
-                                        <i class="fab fa-vine"></i>
-                                        <i class="fab fa-vine"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3 res-margin">
-                            <!-- Footer Items -->
-                            <div class="footer-items">
-                                <!-- Footer Title -->
-                                <h4 class="footer-title">Useful Links</h4>
-                                <ul>
-                                    <li><a href="#">All NFTs</a></li>
-                                    <li><a href="#">How It Works</a></li>
-                                    <li><a href="#">Create</a></li>
-                                    <li><a href="#">Explore</a></li>
-                                    <li><a href="#">Privacy &amp; Terms</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3 res-margin">
-                            <!-- Footer Items -->
-                            <div class="footer-items">
-                                <!-- Footer Title -->
-                                <h4 class="footer-title">Community</h4>
-                                <ul>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Partners</a></li>
-                                    <li><a href="#">Suggestions</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3">
-                            <!-- Footer Items -->
-                            <div class="footer-items">
-                                <!-- Footer Title -->
-                                <h4 class="footer-title">Subscribe Us</h4>
-                                <!-- Subscribe Form -->
-                                <div class="subscribe-form d-flex align-items-center">
-                                    <input type="email" class="form-control" placeholder="info@yourmail.com">
-                                    <button type="submit" class="btn"><i class="icon-paper-plane"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Copyright Area -->
-                            <div class="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
-                                <!-- Copyright Left -->
-                                <div class="copyright-left">&copy;2021 NetStorm, All Rights Reserved.</div>
-                                <!-- Copyright Right -->
-                                <div class="copyright-right">Made with <i class="fas fa-heart"></i> By <a href="#">Themeland</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--====== Footer Area End ======-->
-
+        <?php include 'footer.php'?>
         <!--====== Modal Search Area Start ======-->
         <div id="search" class="modal fade p-0">
             <div class="modal-dialog dialog-animated">
