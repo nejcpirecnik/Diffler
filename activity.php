@@ -70,7 +70,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Walking On Air</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #7345</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>14 ETH</strong> 4 hours ago <br>by <a href="author.php">@arham</a></p>
                                         </div>
@@ -83,7 +83,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Virtual Worlds</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #7734</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago by <a href="author.php">@junaid</a></p>
                                         </div>
@@ -96,7 +96,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Collectibles</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #1256</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago <br>by <a href="author.php">@yasmin</a></p>
                                         </div>
@@ -109,7 +109,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Digital Arts</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #1264</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.php">@john</a></p>
                                         </div>
@@ -122,7 +122,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Design Illusions</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #8534</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>42 ETH</strong> 7 hours ago by <a href="author.php">@william</a></p>
                                         </div>
@@ -135,7 +135,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Industrial</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #2543</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>36 ETH</strong> 10 hours ago <br>by <a href="author.php">@sara</a></p>
                                         </div>
@@ -152,7 +152,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Virtual Worlds</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #4346</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>
@@ -165,7 +165,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Collectibles</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #9345</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago by <a href="author.php">@yasmin</a></p>
                                         </div>
@@ -178,7 +178,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Digital Arts</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #0263</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.php">@john</a></p>
                                         </div>
@@ -191,7 +191,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Photography</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #0153</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>69 ETH</strong> 12 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>
@@ -208,7 +208,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Design Illusions</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #1052</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>
@@ -221,7 +221,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Digital Arts</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #1075</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago by <a href="author.php">@yasmin</a></p>
                                         </div>
@@ -234,7 +234,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Photography</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #2853</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.php">@john</a></p>
                                         </div>
@@ -247,7 +247,7 @@
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
                                             <a href="item-details.php">
-                                                <h5 class="mt-0 mb-2">Virtual Worlds</h5>
+                                                <h5 class="mt-0 mb-2">Bizarro #1924</h5>
                                             </a>
                                             <p class="m-0">Bid listed for <strong>69 ETH</strong> 12 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>

@@ -24,26 +24,6 @@
 <body>
     <div class="main">
         <?php include 'header.php' ?>
-        <!-- ***** Breadcrumb Area Start ***** -->
-        <section class="breadcrumb-area overlay-dark d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Breamcrumb Content -->
-                        <div class="breadcrumb-content text-center">
-                            <h2 class="m-0">Auctions</h2>
-                            <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Explore</a></li>
-                                <li class="breadcrumb-item active">Live Auctions</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Breadcrumb Area End ***** -->
-
         <!-- ***** Live Auctions Area Start ***** -->
         <section class="live-auctions-area load-more">
             <div class="container">
@@ -73,14 +53,14 @@
                                         <div class='countdown d-flex justify-content-center' data-date="2021-12-09"></div>
                                     </div>
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Virtual Worlds</h5>
+                                        <h5 class="mb-0">Bizarro #2356</h5>
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
-                                        <span class="ml-2">@Richard</span>
+                                        <span class="ml-2">@nejc26</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.5 BNB</span>
+                                        <span>1.5 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -106,10 +86,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
-                                        <span class="ml-2">@JohnDeo</span>
+                                        <span class="ml-2">@luvinreal</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>2.7 BNB</span>
+                                        <span>2.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -128,17 +108,17 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <div class="countdown-times mb-3">
-                                        <div class='countdown d-flex justify-content-center' data-date="2021-09-15"></div>
+                                        <div class='countdown d-flex justify-content-center' data-date="2021-12-29"></div>
                                     </div>
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Arts</h5>
+                                        <h5 class="mb-0">Robotic Arts</h5>
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
-                                        <span class="ml-2">@MKHblots</span>
+                                        <span class="ml-2">@hojnik15</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>2.3 BNB</span>
+                                        <span>1.8 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -164,10 +144,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
-                                        <span class="ml-2">@RioArham</span>
+                                        <span class="ml-2">@venja_balazic</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.8 BNB</span>
+                                        <span>1.8 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -193,10 +173,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <span class="ml-2">@kkkukec</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -222,10 +202,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <span class="ml-2">@zan3110</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -251,10 +231,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_7.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <span class="ml-2">@lanamurko</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -265,7 +245,7 @@
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
-                                    <img class="card-img-top" src="assets/img/content/auction_8.jpg" alt="">
+                                    <img class="card-img-top" src="assets/img/content/auction_6.jpg" alt="">
                                 </a>
                             </div>
                             <!-- Card Caption -->
@@ -279,11 +259,11 @@
                                         <h5 class="mb-0">Design Illusions</h5>
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
-                                        <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_8.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
+                                        <span class="ml-2">@hojnik15</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -309,10 +289,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <span class="ml-2">@venja_balazic</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -338,10 +318,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <span class="ml-2">@nejc26</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -367,10 +347,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <span class="ml-2">@luvinreal</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>
@@ -396,10 +376,10 @@
                                     </a>
                                     <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
-                                        <span class="ml-2">@ArtNox</span>
+                                        <span class="ml-2">@hojnik15</span>
                                     </a>
                                     <div class="card-bottom d-flex justify-content-between">
-                                        <span>1.7 BNB</span>
+                                        <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
                                 </div>

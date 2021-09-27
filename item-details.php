@@ -24,26 +24,6 @@
 <body>
     <div class="main">
         <?php include 'header.php' ?>
-        <!-- ***** Breadcrumb Area Start ***** -->
-        <section class="breadcrumb-area overlay-dark d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Breamcrumb Content -->
-                        <div class="breadcrumb-content text-center">
-                            <h2 class="m-0">Item Details</h2>
-                            <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Explore</a></li>
-                                <li class="breadcrumb-item active">Item Details</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Breadcrumb Area End ***** -->
-
         <!-- ***** Item Details Area Start ***** -->
         <section class="item-details-area">
             <div class="container">

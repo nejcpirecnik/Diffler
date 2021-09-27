@@ -437,7 +437,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #2356</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -462,7 +462,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #2865</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -487,7 +487,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #1265</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -512,7 +512,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #8234</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -537,7 +537,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #8756</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -562,7 +562,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #6436</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -587,7 +587,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #3654</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -612,7 +612,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
                                     <a href="item-details.php">
-                                        <h5 class="mb-2">Virtual Worlds</h5>
+                                        <h5 class="mb-2">Bizarro #0326</h5>
                                     </a>
                                     <span>ERC-729</span>
                                 </div>
@@ -654,7 +654,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Purple Dragonoid</h5>
+                                        <h5 class="mb-0">Bizarro #3462</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -683,7 +683,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Silver Ninja</h5>
+                                        <h5 class="mb-0">Bizarro #9349</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -712,7 +712,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Flaming angel</h5>
+                                        <h5 class="mb-0">Bizarro #1245</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -741,7 +741,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Son Of Poseidon</h5>
+                                        <h5 class="mb-0">Bizarro #7423</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -770,7 +770,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Nature Healer</h5>
+                                        <h5 class="mb-0">Bizarro #9843</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -799,7 +799,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Pumpkin Spice</h5>
+                                        <h5 class="mb-0">Bizarro #0134</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -828,7 +828,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Shaman Of Nature</h5>
+                                        <h5 class="mb-0">Bizarro #8234</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -857,7 +857,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Sky Butterfly</h5>
+                                        <h5 class="mb-0">Bizarro #3462</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -886,7 +886,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Nature Healer</h5>
+                                        <h5 class="mb-0">Bizarro #7323</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -915,7 +915,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Pumpkin Spice</h5>
+                                        <h5 class="mb-0">Bizarro #1952</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -944,7 +944,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Shaman Of Nature</h5>
+                                        <h5 class="mb-0">Bizarro #4623</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -973,7 +973,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Sky Butterfly</h5>
+                                        <h5 class="mb-0">Bizarro #5482</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
