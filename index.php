@@ -23,7 +23,7 @@
 
 <body>
     <div class="main">
-<?php include 'header.php' ?>
+        <?php include 'header.php' ?>
         <!-- ***** Hero Area Start ***** -->
         <section class="hero-section">
             <div class="container">
@@ -34,8 +34,8 @@
                         <p>Explore on the world's first & largest NFT marketplace</p>
                         <!-- Buttons -->
                         <div class="button-group">
-                            <a class="btn btn-bordered-white" href="explore-1.html"><i class="icon-rocket mr-2"></i>Explore</a>
-                            <a class="btn btn-bordered-white" href="create.html"><i class="icon-note mr-2"></i>Create</a>
+                            <a class="btn btn-bordered-white" href="explore.php"><i class="icon-rocket mr-2"></i>Explore</a>
+                            <a class="btn btn-bordered-white" href="create.php"><i class="icon-note mr-2"></i>Create</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                                 <h3 class="mt-3 mb-0">Live Auctions</h3>
                             </div>
                             <div class="intro-btn">
-                                <a class="btn content-btn" href="auctions.html">View All</a>
+                                <a class="btn content-btn" href="auctions.php">View All</a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_1.jpg" alt="">
                                         </a>
                                     </div>
@@ -94,10 +94,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-12-09"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Virtual Worlds</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="item-details.html">
+                                            <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                                 <span class="ml-2">@Richard</span>
                                             </a>
@@ -113,7 +113,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_2.jpg" alt="">
                                         </a>
                                     </div>
@@ -124,10 +124,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-10-05"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Collectibles</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="item-details.html">
+                                            <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
                                                 <span class="ml-2">@JohnDeo</span>
                                             </a>
@@ -143,7 +143,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_3.jpg" alt="">
                                         </a>
                                     </div>
@@ -154,10 +154,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-09-15"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Arts</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="item-details.html">
+                                            <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
                                                 <span class="ml-2">@MKHblots</span>
                                             </a>
@@ -173,7 +173,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_4.jpg" alt="">
                                         </a>
                                     </div>
@@ -184,10 +184,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-12-29"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Robotic Arts</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="item-details.html">
+                                            <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
                                                 <span class="ml-2">@RioArham</span>
                                             </a>
@@ -203,7 +203,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_5.jpg" alt="">
                                         </a>
                                     </div>
@@ -214,10 +214,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2022-01-24"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Design Illusions</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="item-details.html">
+                                            <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
                                                 <span class="ml-2">@ArtNox</span>
                                             </a>
@@ -233,7 +233,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_6.jpg" alt="">
                                         </a>
                                     </div>
@@ -244,10 +244,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2022-03-30"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Design Illusions</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="item-details.html">
+                                            <a class="seller d-flex align-items-center my-3" href="item-details.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
                                                 <span class="ml-2">@ArtNox</span>
                                             </a>
@@ -286,12 +286,12 @@
                         <!-- Single Seller -->
                         <div class="card no-hover">
                             <div class="single-seller d-flex align-items-center">
-                                <a href="author.html">
+                                <a href="author.php">
                                     <img class="avatar-md rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.html">@Richard</a>
+                                    <a class="seller mb-2" href="author.php">@Richard</a>
                                     <span>1.5 BNB</span>
                                 </div>
                             </div>
@@ -301,12 +301,12 @@
                         <!-- Single Seller -->
                         <div class="card no-hover">
                             <div class="single-seller d-flex align-items-center">
-                                <a href="author.html">
+                                <a href="author.php">
                                     <img class="avatar-md rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.html">@JohnDeo</a>
+                                    <a class="seller mb-2" href="author.php">@JohnDeo</a>
                                     <span>1.5 BNB</span>
                                 </div>
                             </div>
@@ -316,12 +316,12 @@
                         <!-- Single Seller -->
                         <div class="card no-hover">
                             <div class="single-seller d-flex align-items-center">
-                                <a href="author.html">
+                                <a href="author.php">
                                     <img class="avatar-md rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.html">@Junaid</a>
+                                    <a class="seller mb-2" href="author.php">@Junaid</a>
                                     <span>1.5 BNB</span>
                                 </div>
                             </div>
@@ -331,12 +331,12 @@
                         <!-- Single Seller -->
                         <div class="card no-hover">
                             <div class="single-seller d-flex align-items-center">
-                                <a href="author.html">
+                                <a href="author.php">
                                     <img class="avatar-md rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.html">@Yasmin</a>
+                                    <a class="seller mb-2" href="author.php">@Yasmin</a>
                                     <span>1.5 BNB</span>
                                 </div>
                             </div>
@@ -346,12 +346,12 @@
                         <!-- Single Seller -->
                         <div class="card no-hover">
                             <div class="single-seller d-flex align-items-center">
-                                <a href="author.html">
+                                <a href="author.php">
                                     <img class="avatar-md rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.html">@ArhamH</a>
+                                    <a class="seller mb-2" href="author.php">@ArhamH</a>
                                     <span>1.5 BNB</span>
                                 </div>
                             </div>
@@ -361,12 +361,12 @@
                         <!-- Single Seller -->
                         <div class="card no-hover">
                             <div class="single-seller d-flex align-items-center">
-                                <a href="author.html">
+                                <a href="author.php">
                                     <img class="avatar-md rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
                                 </a>
                                 <!-- Seller Info -->
                                 <div class="seller-info ml-3">
-                                    <a class="seller mb-2" href="author.html">@Richard</a>
+                                    <a class="seller mb-2" href="author.php">@Richard</a>
                                     <span>1.5 BNB</span>
                                 </div>
                             </div>
@@ -389,7 +389,7 @@
                                 <h3 class="mt-3 mb-0">Popular Collections</h3>
                             </div>
                             <div class="intro-btn">
-                                <a class="btn content-btn text-left" href="explore-2.html">Explore More</a>
+                                <a class="btn content-btn text-left" href="explore-2.php">Explore More</a>
                             </div>
                         </div>
                     </div>
@@ -398,11 +398,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_1.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                     </div>
@@ -412,7 +412,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -423,11 +423,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_2.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
                                     </div>
@@ -437,7 +437,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -448,11 +448,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_3.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
                                     </div>
@@ -462,7 +462,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -473,11 +473,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_4.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
                                     </div>
@@ -487,7 +487,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -498,11 +498,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_5.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
                                     </div>
@@ -512,7 +512,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -523,11 +523,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_6.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
                                     </div>
@@ -537,7 +537,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -548,11 +548,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_1.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_7.jpg" alt="">
                                     </div>
@@ -562,7 +562,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -573,11 +573,11 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card no-hover text-center">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_2.jpg" alt="">
                                 </a>
                                 <!-- Seller -->
-                                <a class="seller" href="item-details.html">
+                                <a class="seller" href="item-details.php">
                                     <div class="seller-thumb avatar-lg">
                                         <img class="rounded-circle" src="assets/img/content/avatar_8.jpg" alt="">
                                     </div>
@@ -587,7 +587,7 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body mt-4">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-2">Virtual Worlds</h5>
                                     </a>
                                     <span>ERC-729</span>
@@ -612,7 +612,7 @@
                                 <h3 class="mt-3 mb-0">Explore</h3>
                             </div>
                             <div class="intro-btn">
-                                <a class="btn content-btn" href="explore-3.html">View All</a>
+                                <a class="btn content-btn" href="explore-3.php">View All</a>
                             </div>
                         </div>
                     </div>
@@ -621,7 +621,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_1.jpg" alt="">
                                 </a>
                             </div>
@@ -629,12 +629,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Walking On Air</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Richard</h6>
                                         </a>
                                     </div>
@@ -642,7 +642,7 @@
                                         <span>1.5 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -650,7 +650,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_2.jpg" alt="">
                                 </a>
                             </div>
@@ -658,12 +658,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Domain Names</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">John Deo</h6>
                                         </a>
                                     </div>
@@ -671,7 +671,7 @@
                                         <span>2.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -679,7 +679,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_3.jpg" alt="">
                                 </a>
                             </div>
@@ -687,12 +687,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Trading Cards</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Arham</h6>
                                         </a>
                                     </div>
@@ -700,7 +700,7 @@
                                         <span>2.3 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -708,7 +708,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_4.jpg" alt="">
                                 </a>
                             </div>
@@ -716,12 +716,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Industrial Revolution</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Yasmin</h6>
                                         </a>
                                     </div>
@@ -729,7 +729,7 @@
                                         <span>1.8 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -737,7 +737,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_5.jpg" alt="">
                                 </a>
                             </div>
@@ -745,12 +745,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Utility</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Junaid</h6>
                                         </a>
                                     </div>
@@ -758,7 +758,7 @@
                                         <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -766,7 +766,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_6.jpg" alt="">
                                 </a>
                             </div>
@@ -774,12 +774,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Sports</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">ArtNox</h6>
                                         </a>
                                     </div>
@@ -787,7 +787,7 @@
                                         <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -795,7 +795,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_7.jpg" alt="">
                                 </a>
                             </div>
@@ -803,12 +803,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Cartoon Heroes</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Junaid</h6>
                                         </a>
                                     </div>
@@ -816,7 +816,7 @@
                                         <span>3.2 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -824,7 +824,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_8.jpg" alt="">
                                 </a>
                             </div>
@@ -832,12 +832,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Gaming Chair</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Johnson</h6>
                                         </a>
                                     </div>
@@ -845,7 +845,7 @@
                                         <span>0.69 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -853,7 +853,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_9.jpg" alt="">
                                 </a>
                             </div>
@@ -861,12 +861,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Utility</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Junaid</h6>
                                         </a>
                                     </div>
@@ -874,7 +874,7 @@
                                         <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -882,7 +882,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_10.jpg" alt="">
                                 </a>
                             </div>
@@ -890,12 +890,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Sports</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">ArtNox</h6>
                                         </a>
                                     </div>
@@ -903,7 +903,7 @@
                                         <span>1.7 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -911,7 +911,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_11.jpg" alt="">
                                 </a>
                             </div>
@@ -919,12 +919,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Cartoon Heroes</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Junaid</h6>
                                         </a>
                                     </div>
@@ -932,7 +932,7 @@
                                         <span>3.2 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="item-details.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="item-details.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -940,7 +940,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_12.jpg" alt="">
                                 </a>
                             </div>
@@ -948,12 +948,12 @@
                             <div class="card-caption col-12 p-0">
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Gaming Chair</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
-                                        <a href="author.html">
+                                        <a href="author.php">
                                             <h6 class="ml-2 mb-0">Johnson</h6>
                                         </a>
                                     </div>
@@ -961,7 +961,7 @@
                                         <span>0.69 ETH</span>
                                         <span>1 of 1</span>
                                     </div>
-                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.html"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="login.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
                                 </div>
                             </div>
                         </div>
@@ -1038,7 +1038,7 @@
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index.php">
                                     <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
