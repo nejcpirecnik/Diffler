@@ -58,14 +58,14 @@
                                 <span>Collectibles</span>
                             </label>
                             <label class="btn d-table text-uppercase p-2">
-                                <input type="radio" value="sports" class="explore-btn">
-                                <span>Sports</span>
+                                <input type="radio" value="Bizarro #1297" class="explore-btn">
+                                <span>Bizarro #1297</span>
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="row items explore-items">
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","sports"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -77,7 +77,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Walking On Air</h5>
+                                        <h5 class="mb-0">Bizarro #7654</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["collectibles","sports"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["collectibles","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -106,12 +106,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Domain Names</h5>
+                                        <h5 class="mb-0">Bizarro #0234</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">John Deo</h6>
+                                            <h6 class="ml-2 mb-0">nejc26</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -135,7 +135,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Trading Cards</h5>
+                                        <h5 class="mb-0">Bizarro #9239</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -152,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["sports","art","music"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["Bizarro #1297","art","music"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -164,7 +164,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Industrial Revolution</h5>
+                                        <h5 class="mb-0">Bizarro #7349</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -181,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","sports","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","collectibles"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -193,12 +193,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Utility</h5>
+                                        <h5 class="mb-0">Bizarro #3423</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Junaid</h6>
+                                            <h6 class="ml-2 mb-0">alextheukrainian</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["collectibles","sports"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["collectibles","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -222,7 +222,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Sports</h5>
+                                        <h5 class="mb-0">Bizarro #1297</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -239,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","sports"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -251,7 +251,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Cartoon Heroes</h5>
+                                        <h5 class="mb-0">Bizarro #1859</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -268,7 +268,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","sports","art","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","art","collectibles"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -280,12 +280,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Gaming Chair</h5>
+                                        <h5 class="mb-0">Bizarro #2643</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Johnson</h6>
+                                            <h6 class="ml-2 mb-0">luke_hoffman</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
@@ -297,7 +297,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","sports","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","collectibles"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -309,7 +309,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Utility</h5>
+                                        <h5 class="mb-0">Bizarro #2351</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -338,7 +338,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Sports</h5>
+                                        <h5 class="mb-0">Bizarro #1297</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -355,7 +355,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["sports","art","music"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["Bizarro #1297","art","music"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -367,7 +367,7 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Cartoon Heroes</h5>
+                                        <h5 class="mb-0">Bored Ape #1859</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
@@ -384,7 +384,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","sports","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","collectibles"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -396,12 +396,12 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <a href="item-details.php">
-                                        <h5 class="mb-0">Gaming Chair</h5>
+                                        <h5 class="mb-0">Bored Ape #2643</h5>
                                     </a>
                                     <div class="seller d-flex align-items-center my-3">
                                         <span>Owned By</span>
                                         <a href="author.php">
-                                            <h6 class="ml-2 mb-0">Johnson</h6>
+                                            <h6 class="ml-2 mb-0">luke_hoffman</h6>
                                         </a>
                                     </div>
                                     <div class="card-bottom d-flex justify-content-between">
