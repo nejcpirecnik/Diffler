@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>NetStorm - NFT Marketplace HTML Template</title>
+    <title>Diffler - NFT Marketplace </title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
@@ -22,120 +22,8 @@
 </head>
 
 <body>
-    <!--====== Preloader Area Start ======-->
-    <div id="netstorm-preloader" class="netstorm-preloader">
-        <!-- Preloader Animation -->
-        <div class="preloader-animation">
-            <!-- Spinner -->
-            <div class="spinner"></div>
-            <p class="fw-5 text-center text-uppercase">Loading</p>
-        </div>
-        <!-- Loader Animation -->
-        <div class="loader-animation">
-            <div class="row h-100">
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== Preloader Area End ======-->
-
     <div class="main">
-        <!-- ***** Header Start ***** -->
-        <header id="header">
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
-                    </a>
-                    <div class="ml-auto"></div>
-                    <!-- Navbar -->
-                    <ul class="navbar-nav items mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Explore <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="explore-1.html" class="nav-link">Explore Style 1</a></li>
-                                <li class="nav-item"><a href="explore-2.html" class="nav-link">Explore Style 2</a></li>
-                                <li class="nav-item"><a href="explore-3.html" class="nav-link">Explore Style 3</a></li>
-                                <li class="nav-item"><a href="explore-4.html" class="nav-link">Explore Style 4</a></li>
-                                <li class="nav-item"><a href="auctions.html" class="nav-link">Live Auctions</a></li>
-                                <li class="nav-item"><a href="item-details.html" class="nav-link">Item Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activity.html" class="nav-link">Activity</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Community <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="blog-single.html" class="nav-link">Blog Single</a></li>
-                                <li class="nav-item"><a href="help-center.html" class="nav-link">Help Center</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Pages <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="authors.html" class="nav-link">Authors</a></li>
-                                <li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-                                <li class="nav-item"><a href="wallet-connect.html" class="nav-link">Wallet Connect</a></li>
-                                <li class="nav-item"><a href="create.html" class="nav-link">Create</a></li>
-                                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                                <li class="nav-item"><a href="signup.html" class="nav-link">Signup</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggler -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="fas fa-bars toggle-icon m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action Button -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <a href="wallet-connect.html" class="btn ml-lg-auto btn-bordered-white"><i class="icon-wallet mr-md-2"></i>Wallet Connect</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- ***** Header End ***** -->
-
+        <?php include 'header.php' ?>
         <!-- ***** Breadcrumb Area Start ***** -->
         <section class="breadcrumb-area overlay-dark d-flex align-items-center">
             <div class="container">
@@ -145,7 +33,7 @@
                         <div class="breadcrumb-content text-center">
                             <h2 class="m-0">Item Details</h2>
                             <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Explore</a></li>
                                 <li class="breadcrumb-item active">Item Details</li>
                             </ol>
@@ -193,17 +81,17 @@
                                         <!-- Single Tab List -->
                                         <li class="single-tab-list d-flex align-items-center">
                                             <img class="avatar-sm rounded-circle mr-3" src="assets/img/content/avatar_1.jpg" alt="">
-                                            <p class="m-0">Bid listed for <strong>14 ETH</strong> 4 hours ago <br>by <a href="author.html">@arham</a></p>
+                                            <p class="m-0">Bid listed for <strong>14 ETH</strong> 4 hours ago <br>by <a href="author.php">@arham</a></p>
                                         </li>
                                         <!-- Single Tab List -->
                                         <li class="single-tab-list d-flex align-items-center">
                                             <img class="avatar-sm rounded-circle mr-3" src="assets/img/content/avatar_2.jpg" alt="">
-                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.html">@junaid</a></p>
+                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </li>
                                         <!-- Single Tab List -->
                                         <li class="single-tab-list d-flex align-items-center">
                                             <img class="avatar-sm rounded-circle mr-3" src="assets/img/content/avatar_3.jpg" alt="">
-                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago <br>by <a href="author.html">@yasmin</a></p>
+                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago <br>by <a href="author.php">@yasmin</a></p>
                                         </li>
                                     </ul>
                                 </div>
@@ -212,17 +100,17 @@
                                         <!-- Single Tab List -->
                                         <li class="single-tab-list d-flex align-items-center">
                                             <img class="avatar-sm rounded-circle mr-3" src="assets/img/content/avatar_6.jpg" alt="">
-                                            <p class="m-0">Bid listed for <strong>32 ETH</strong> 10 hours ago <br>by <a href="author.html">@hasan</a></p>
+                                            <p class="m-0">Bid listed for <strong>32 ETH</strong> 10 hours ago <br>by <a href="author.php">@hasan</a></p>
                                         </li>
                                         <!-- Single Tab List -->
                                         <li class="single-tab-list d-flex align-items-center">
                                             <img class="avatar-sm rounded-circle mr-3" src="assets/img/content/avatar_7.jpg" alt="">
-                                            <p class="m-0">Bid listed for <strong>24 ETH</strong> 6 hours ago <br>by <a href="author.html">@artnox</a></p>
+                                            <p class="m-0">Bid listed for <strong>24 ETH</strong> 6 hours ago <br>by <a href="author.php">@artnox</a></p>
                                         </li>
                                         <!-- Single Tab List -->
                                         <li class="single-tab-list d-flex align-items-center">
                                             <img class="avatar-sm rounded-circle mr-3" src="assets/img/content/avatar_8.jpg" alt="">
-                                            <p class="m-0">Bid listed for <strong>29 ETH</strong> 12 hours ago <br>by <a href="author.html">@meez</a></p>
+                                            <p class="m-0">Bid listed for <strong>29 ETH</strong> 12 hours ago <br>by <a href="author.php">@meez</a></p>
                                         </li>
                                     </ul>
                                 </div>
@@ -230,7 +118,7 @@
                                     <!-- Single Tab List -->
                                     <div class="owner-meta d-flex align-items-center mt-3">
                                         <span>Owner</span>
-                                        <a class="owner d-flex align-items-center ml-2" href="author.html">
+                                        <a class="owner d-flex align-items-center ml-2" href="author.php">
                                             <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                             <h6 class="ml-2">Themeland</h6>
                                         </a>
@@ -248,7 +136,7 @@
                             <!-- Owner -->
                             <div class="owner d-flex align-items-center">
                                 <span>Owned By</span>
-                                <a class="owner-meta d-flex align-items-center ml-3" href="author.html">
+                                <a class="owner-meta d-flex align-items-center ml-3" href="author.php">
                                     <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                     <h6 class="ml-2">Themeland</h6>
                                 </a>
@@ -275,12 +163,12 @@
                                 <div class="col-12 col-md-6 item px-lg-2">
                                     <div class="card no-hover">
                                         <div class="single-seller d-flex align-items-center">
-                                            <a href="author.html">
+                                            <a href="author.php">
                                                 <img class="avatar-md rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                             </a>
                                             <!-- Seller Info -->
                                             <div class="seller-info ml-3">
-                                                <a class="seller mb-2" href="author.html">@ArtNoxStudio</a>
+                                                <a class="seller mb-2" href="author.php">@ArtNoxStudio</a>
                                                 <span>Creator</span>
                                             </div>
                                         </div>
@@ -289,12 +177,12 @@
                                 <div class="col-12 col-md-6 item px-lg-2">
                                     <div class="card no-hover">
                                         <div class="single-seller d-flex align-items-center">
-                                            <a href="author.html">
+                                            <a href="author.php">
                                                 <img class="avatar-md rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                             </a>
                                             <!-- Seller Info -->
                                             <div class="seller-info ml-3">
-                                                <a class="seller mb-2" href="explore-2.html">Virtual Worlds</a>
+                                                <a class="seller mb-2" href="explore.php">Virtual Worlds</a>
                                                 <span>Collection</span>
                                             </div>
                                         </div>
@@ -310,7 +198,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="d-block btn btn-bordered-white mt-4" href="wallet-connect.html">Place a Bid</a>
+                            <a class="d-block btn btn-bordered-white mt-4" href="wallet-connect.php">Place a Bid</a>
                         </div>
                     </div>
                 </div>
@@ -330,7 +218,7 @@
                                 <h3 class="mt-3 mb-0">Live Auctions</h3>
                             </div>
                             <div class="intro-btn">
-                                <a class="btn content-btn" href="auctions.html">View All</a>
+                                <a class="btn content-btn" href="auctions.php">View All</a>
                             </div>
                         </div>
                     </div>
@@ -342,7 +230,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_1.jpg" alt="">
                                         </a>
                                     </div>
@@ -353,10 +241,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-12-09"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Virtual Worlds</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="author.html">
+                                            <a class="seller d-flex align-items-center my-3" href="author.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                                 <span class="ml-2">@Richard</span>
                                             </a>
@@ -372,7 +260,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_2.jpg" alt="">
                                         </a>
                                     </div>
@@ -383,10 +271,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-10-05"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Collectibles</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="author.html">
+                                            <a class="seller d-flex align-items-center my-3" href="author.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
                                                 <span class="ml-2">@JohnDeo</span>
                                             </a>
@@ -402,7 +290,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_3.jpg" alt="">
                                         </a>
                                     </div>
@@ -413,10 +301,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-09-15"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Arts</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="author.html">
+                                            <a class="seller d-flex align-items-center my-3" href="author.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
                                                 <span class="ml-2">@MKHblots</span>
                                             </a>
@@ -432,7 +320,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_4.jpg" alt="">
                                         </a>
                                     </div>
@@ -443,10 +331,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2021-12-29"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Robotic Arts</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="author.html">
+                                            <a class="seller d-flex align-items-center my-3" href="author.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
                                                 <span class="ml-2">@RioArham</span>
                                             </a>
@@ -462,7 +350,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_5.jpg" alt="">
                                         </a>
                                     </div>
@@ -473,10 +361,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2022-01-24"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Design Illusions</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="author.html">
+                                            <a class="seller d-flex align-items-center my-3" href="author.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
                                                 <span class="ml-2">@ArtNox</span>
                                             </a>
@@ -492,7 +380,7 @@
                             <div class="swiper-slide item">
                                 <div class="card">
                                     <div class="image-over">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="card-img-top" src="assets/img/content/auction_6.jpg" alt="">
                                         </a>
                                     </div>
@@ -503,10 +391,10 @@
                                             <div class="countdown-times mb-3">
                                                 <div class='countdown d-flex justify-content-center' data-date="2022-03-30"></div>
                                             </div>
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mb-0">Design Illusions</h5>
                                             </a>
-                                            <a class="seller d-flex align-items-center my-3" href="author.html">
+                                            <a class="seller d-flex align-items-center my-3" href="author.php">
                                                 <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
                                                 <span class="ml-2">@ArtNox</span>
                                             </a>
@@ -536,7 +424,7 @@
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index.php">
                                     <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
@@ -673,15 +561,6 @@
             </div>
         </div>
         <!--====== Modal Responsive Menu Area End ======-->
-
-        <!--====== Scroll To Top Area Start ======-->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="smooth-anchor">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-        <!--====== Scroll To Top Area End ======-->
-
     </div>
 
 

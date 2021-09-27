@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>NetStorm - NFT Marketplace HTML Template</title>
+    <title>Diffler - NFT Marketplace </title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
@@ -22,120 +22,8 @@
 </head>
 
 <body>
-    <!--====== Preloader Area Start ======-->
-    <div id="netstorm-preloader" class="netstorm-preloader">
-        <!-- Preloader Animation -->
-        <div class="preloader-animation">
-            <!-- Spinner -->
-            <div class="spinner"></div>
-            <p class="fw-5 text-center text-uppercase">Loading</p>
-        </div>
-        <!-- Loader Animation -->
-        <div class="loader-animation">
-            <div class="row h-100">
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== Preloader Area End ======-->
-
     <div class="main">
-        <!-- ***** Header Start ***** -->
-        <header id="header">
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
-                    </a>
-                    <div class="ml-auto"></div>
-                    <!-- Navbar -->
-                    <ul class="navbar-nav items mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Explore <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="explore-1.html" class="nav-link">Explore Style 1</a></li>
-                                <li class="nav-item"><a href="explore-2.html" class="nav-link">Explore Style 2</a></li>
-                                <li class="nav-item"><a href="explore-3.html" class="nav-link">Explore Style 3</a></li>
-                                <li class="nav-item"><a href="explore-4.html" class="nav-link">Explore Style 4</a></li>
-                                <li class="nav-item"><a href="auctions.html" class="nav-link">Live Auctions</a></li>
-                                <li class="nav-item"><a href="item-details.html" class="nav-link">Item Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activity.html" class="nav-link">Activity</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Community <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="blog-single.html" class="nav-link">Blog Single</a></li>
-                                <li class="nav-item"><a href="help-center.html" class="nav-link">Help Center</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Pages <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="authors.html" class="nav-link">Authors</a></li>
-                                <li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-                                <li class="nav-item"><a href="wallet-connect.html" class="nav-link">Wallet Connect</a></li>
-                                <li class="nav-item"><a href="create.html" class="nav-link">Create</a></li>
-                                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                                <li class="nav-item"><a href="signup.html" class="nav-link">Signup</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggler -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="fas fa-bars toggle-icon m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action Button -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <a href="wallet-connect.html" class="btn ml-lg-auto btn-bordered-white"><i class="icon-wallet mr-md-2"></i>Wallet Connect</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- ***** Header End ***** -->
-
+        <?php include 'header.php' ?>
         <!-- ***** Breadcrumb Area Start ***** -->
         <section class="breadcrumb-area overlay-dark d-flex align-items-center">
             <div class="container">
@@ -143,10 +31,11 @@
                     <div class="col-12">
                         <!-- Breamcrumb Content -->
                         <div class="breadcrumb-content text-center">
-                            <h2 class="m-0">Contact</h2>
+                            <h2 class="m-0">Wallet Connect</h2>
                             <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active">Contact</li>
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                                <li class="breadcrumb-item active">Wallet Connect</li>
                             </ol>
                         </div>
                     </div>
@@ -155,51 +44,74 @@
         </section>
         <!-- ***** Breadcrumb Area End ***** -->
 
-        <!-- ***** Contact Area Start ***** -->
-        <section class="author-area">
+        <!-- ***** Wallet Connect Area Start ***** -->
+        <section class="wallet-connect-area">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 col-lg-7">
                         <!-- Intro -->
                         <div class="intro text-center">
-                            <span>Contact</span>
-                            <h3 class="mt-3 mb-0">Get In Touch</h3>
+                            <span>Wallet Connect</span>
+                            <h3 class="mt-3 mb-0">Connect your Wallet</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
                         </div>
-                        <!-- Item Form -->
-                        <form id="contact-form" class="item-form card no-hover" method="POST" action="assets/php/mail.php">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <input type="text" class="form-control" name="name" placeholder="Name" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <input type="email" class="form-control" name="email" placeholder="Email" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <textarea class="form-control" name="message" placeholder="Message" cols="30" rows="3"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn w-100 mt-3 mt-sm-4" type="submit"><i class="icon-paper-plane mr-2"></i>Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                        <p class="form-message"></p>
+                    </div>
+                </div>
+                <div class="row justify-content-center items">
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <!-- Single Wallet -->
+                        <div class="card single-wallet">
+                            <a class="d-block text-center" href="login.php">
+                                <img class="avatar-lg" src="assets/img/content/metamask.png" alt="">
+                                <h4 class="mb-0">MetaMask</h4>
+                                <p>A browser extension with great flexibility. The web's most popular wallet</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <!-- Single Wallet -->
+                        <div class="card single-wallet">
+                            <a class="d-block text-center" href="login.php">
+                                <img class="avatar-lg" src="assets/img/content/authereum.png" alt="">
+                                <h4 class="mb-0">Authereum</h4>
+                                <p>A user-friendly wallet that allows you to sign up with your phone number on any device</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <!-- Single Wallet -->
+                        <div class="card single-wallet">
+                            <a class="d-block text-center" href="login.php">
+                                <img class="avatar-lg" src="assets/img/content/walletconnect.png" alt="">
+                                <h4 class="mb-0">WalletConnect</h4>
+                                <p>Pair with Trust, Argent, MetaMask &amp; more. Works from any browser, without an extension</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <!-- Single Wallet -->
+                        <div class="card single-wallet">
+                            <a class="d-block text-center" href="login.php">
+                                <img class="avatar-lg" src="assets/img/content/dapper.png" alt="">
+                                <h4 class="mb-0">Dapper</h4>
+                                <p>A security-focused cloud wallet with pin codes and multi-factor authentication</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <!-- Single Wallet -->
+                        <div class="card single-wallet">
+                            <a class="d-block text-center" href="login.php">
+                                <img class="avatar-lg" src="assets/img/content/kaikas.png" alt="">
+                                <h4 class="mb-0">Kaikas</h4>
+                                <p>A simple-to-use wallet that works on both mobile and through a browser extension</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- ***** Contact Area End ***** -->
+        <!-- ***** Wallet Connect Area End ***** -->
 
         <!--====== Footer Area Start ======-->
         <footer class="footer-area">
@@ -211,7 +123,7 @@
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index.php">
                                     <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
@@ -348,15 +260,6 @@
             </div>
         </div>
         <!--====== Modal Responsive Menu Area End ======-->
-
-        <!--====== Scroll To Top Area Start ======-->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="smooth-anchor">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-        <!--====== Scroll To Top Area End ======-->
-
     </div>
 
 

@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>NetStorm - NFT Marketplace HTML Template</title>
+    <title>Diffler - NFT Marketplace </title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
@@ -22,120 +22,8 @@
 </head>
 
 <body>
-    <!--====== Preloader Area Start ======-->
-    <div id="netstorm-preloader" class="netstorm-preloader">
-        <!-- Preloader Animation -->
-        <div class="preloader-animation">
-            <!-- Spinner -->
-            <div class="spinner"></div>
-            <p class="fw-5 text-center text-uppercase">Loading</p>
-        </div>
-        <!-- Loader Animation -->
-        <div class="loader-animation">
-            <div class="row h-100">
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== Preloader Area End ======-->
-
     <div class="main">
-        <!-- ***** Header Start ***** -->
-        <header id="header">
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
-                    </a>
-                    <div class="ml-auto"></div>
-                    <!-- Navbar -->
-                    <ul class="navbar-nav items mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Explore <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="explore-1.html" class="nav-link">Explore Style 1</a></li>
-                                <li class="nav-item"><a href="explore-2.html" class="nav-link">Explore Style 2</a></li>
-                                <li class="nav-item"><a href="explore-3.html" class="nav-link">Explore Style 3</a></li>
-                                <li class="nav-item"><a href="explore-4.html" class="nav-link">Explore Style 4</a></li>
-                                <li class="nav-item"><a href="auctions.html" class="nav-link">Live Auctions</a></li>
-                                <li class="nav-item"><a href="item-details.html" class="nav-link">Item Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activity.html" class="nav-link">Activity</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Community <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="blog-single.html" class="nav-link">Blog Single</a></li>
-                                <li class="nav-item"><a href="help-center.html" class="nav-link">Help Center</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Pages <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="authors.html" class="nav-link">Authors</a></li>
-                                <li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-                                <li class="nav-item"><a href="wallet-connect.html" class="nav-link">Wallet Connect</a></li>
-                                <li class="nav-item"><a href="create.html" class="nav-link">Create</a></li>
-                                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                                <li class="nav-item"><a href="signup.html" class="nav-link">Signup</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggler -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="fas fa-bars toggle-icon m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action Button -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <a href="wallet-connect.html" class="btn ml-lg-auto btn-bordered-white"><i class="icon-wallet mr-md-2"></i>Wallet Connect</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- ***** Header End ***** -->
-
+        <?php include 'header.php' ?>
         <!-- ***** Breadcrumb Area Start ***** -->
         <section class="breadcrumb-area overlay-dark d-flex align-items-center">
             <div class="container">
@@ -145,7 +33,7 @@
                         <div class="breadcrumb-content text-center">
                             <h2 class="m-0">Blog</h2>
                             <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Community</a></li>
                                 <li class="breadcrumb-item active">Blog</li>
                             </ol>
@@ -165,7 +53,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_1.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_1.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -175,12 +63,12 @@
                                     <li><a href="#">Feb 19, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>Decentralizing NFT metadata on NetStorm</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +77,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_2.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_2.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -199,12 +87,12 @@
                                     <li><a href="#">Feb 19, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>The Lost Art Of Photography</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -213,7 +101,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_3.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_3.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -223,12 +111,12 @@
                                     <li><a href="#">Jul 17, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>Save Thousands Of Lives Through This NFT</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -237,7 +125,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_4.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_4.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -247,12 +135,12 @@
                                     <li><a href="#">Aug 22, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>Golden State announce legacy NFT collection</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -261,7 +149,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_5.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_5.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -271,12 +159,12 @@
                                     <li><a href="#">Mar 19, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>Control Your Own Top Level Domain on the DNS & ENS</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -285,7 +173,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_6.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_6.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -295,12 +183,12 @@
                                     <li><a href="#">Jan 31, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>Klaytn NFTs are coming to NetStorm</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -309,7 +197,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_7.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_7.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -319,12 +207,12 @@
                                     <li><a href="#">Mar 05, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>NetStorm raises $12M to scale the largest marketplace for NFTs</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -333,7 +221,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_8.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_8.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -343,12 +231,12 @@
                                     <li><a href="#">May 12, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>How to safely purchase NFTs on NetStorm</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -357,7 +245,7 @@
                         <div class="card blog-card">
                             <!-- Blog Thumb -->
                             <div class="blog-thumb">
-                                <a href="blog-single.html"><img src="assets/img/blog/blog_9.jpg" alt=""></a>
+                                <a href="blog-single.php"><img src="assets/img/blog/blog_9.jpg" alt=""></a>
                             </div>
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -367,12 +255,12 @@
                                     <li><a href="#">Sep 01, 2021</a></li>
                                 </ul>
                                 <!-- Blog Title -->
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <h4>The beginner’s guide to creating & selling digital art NFTs</h4>
                                 </a>
                                 <p>Lorem ipsum dolor, sit voluptatem consectetur adipisicing elit.</p>
                                 <!-- Blog Button -->
-                                <a class="btn content-btn" href="blog-single.html">Read More</a>
+                                <a class="btn content-btn" href="blog-single.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -396,7 +284,7 @@
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index.php">
                                     <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
@@ -533,15 +421,6 @@
             </div>
         </div>
         <!--====== Modal Responsive Menu Area End ======-->
-
-        <!--====== Scroll To Top Area Start ======-->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="smooth-anchor">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-        <!--====== Scroll To Top Area End ======-->
-
     </div>
 
 

@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>NetStorm - NFT Marketplace HTML Template</title>
+    <title>Diffler - NFT Marketplace </title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
@@ -22,120 +22,8 @@
 </head>
 
 <body>
-    <!--====== Preloader Area Start ======-->
-    <div id="netstorm-preloader" class="netstorm-preloader">
-        <!-- Preloader Animation -->
-        <div class="preloader-animation">
-            <!-- Spinner -->
-            <div class="spinner"></div>
-            <p class="fw-5 text-center text-uppercase">Loading</p>
-        </div>
-        <!-- Loader Animation -->
-        <div class="loader-animation">
-            <div class="row h-100">
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== Preloader Area End ======-->
-
     <div class="main">
-        <!-- ***** Header Start ***** -->
-        <header id="header">
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
-                    </a>
-                    <div class="ml-auto"></div>
-                    <!-- Navbar -->
-                    <ul class="navbar-nav items mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Explore <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="explore-1.html" class="nav-link">Explore Style 1</a></li>
-                                <li class="nav-item"><a href="explore-2.html" class="nav-link">Explore Style 2</a></li>
-                                <li class="nav-item"><a href="explore-3.html" class="nav-link">Explore Style 3</a></li>
-                                <li class="nav-item"><a href="explore-4.html" class="nav-link">Explore Style 4</a></li>
-                                <li class="nav-item"><a href="auctions.html" class="nav-link">Live Auctions</a></li>
-                                <li class="nav-item"><a href="item-details.html" class="nav-link">Item Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activity.html" class="nav-link">Activity</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Community <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="blog-single.html" class="nav-link">Blog Single</a></li>
-                                <li class="nav-item"><a href="help-center.html" class="nav-link">Help Center</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Pages <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="authors.html" class="nav-link">Authors</a></li>
-                                <li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-                                <li class="nav-item"><a href="wallet-connect.html" class="nav-link">Wallet Connect</a></li>
-                                <li class="nav-item"><a href="create.html" class="nav-link">Create</a></li>
-                                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                                <li class="nav-item"><a href="signup.html" class="nav-link">Signup</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggler -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="fas fa-bars toggle-icon m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action Button -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <a href="wallet-connect.html" class="btn ml-lg-auto btn-bordered-white"><i class="icon-wallet mr-md-2"></i>Wallet Connect</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- ***** Header End ***** -->
-
+        <?php include 'header.php' ?>
         <!-- ***** Breadcrumb Area Start ***** -->
         <section class="breadcrumb-area overlay-dark d-flex align-items-center">
             <div class="container">
@@ -145,7 +33,7 @@
                         <div class="breadcrumb-content text-center">
                             <h2 class="m-0">Auctions</h2>
                             <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Explore</a></li>
                                 <li class="breadcrumb-item active">Live Auctions</li>
                             </ol>
@@ -173,7 +61,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_1.jpg" alt="">
                                 </a>
                             </div>
@@ -184,10 +72,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2021-12-09"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Virtual Worlds</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                         <span class="ml-2">@Richard</span>
                                     </a>
@@ -202,7 +90,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_2.jpg" alt="">
                                 </a>
                             </div>
@@ -213,10 +101,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2021-10-05"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Collectibles</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
                                         <span class="ml-2">@JohnDeo</span>
                                     </a>
@@ -231,7 +119,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_3.jpg" alt="">
                                 </a>
                             </div>
@@ -242,10 +130,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2021-09-15"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Arts</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
                                         <span class="ml-2">@MKHblots</span>
                                     </a>
@@ -260,7 +148,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_4.jpg" alt="">
                                 </a>
                             </div>
@@ -271,10 +159,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2021-12-29"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Robotic Arts</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
                                         <span class="ml-2">@RioArham</span>
                                     </a>
@@ -289,7 +177,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_5.jpg" alt="">
                                 </a>
                             </div>
@@ -300,10 +188,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-01-24"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Magazine Fall</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -318,7 +206,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_6.jpg" alt="">
                                 </a>
                             </div>
@@ -329,10 +217,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-03-30"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Inspiration</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -347,7 +235,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_7.jpg" alt="">
                                 </a>
                             </div>
@@ -358,10 +246,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-01-24"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Design Illusions</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_7.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -376,7 +264,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_8.jpg" alt="">
                                 </a>
                             </div>
@@ -387,10 +275,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-03-30"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Design Illusions</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_8.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -405,7 +293,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_9.jpg" alt="">
                                 </a>
                             </div>
@@ -416,10 +304,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-01-24"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Design Illusions</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -434,7 +322,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_10.jpg" alt="">
                                 </a>
                             </div>
@@ -445,10 +333,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-03-30"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Infinity</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -463,7 +351,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_11.jpg" alt="">
                                 </a>
                             </div>
@@ -474,10 +362,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-01-24"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Sports</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -492,7 +380,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 item">
                         <div class="card">
                             <div class="image-over">
-                                <a href="item-details.html">
+                                <a href="item-details.php">
                                     <img class="card-img-top" src="assets/img/content/auction_12.jpg" alt="">
                                 </a>
                             </div>
@@ -503,10 +391,10 @@
                                     <div class="countdown-times mb-3">
                                         <div class='countdown d-flex justify-content-center' data-date="2022-03-30"></div>
                                     </div>
-                                    <a href="item-details.html">
+                                    <a href="item-details.php">
                                         <h5 class="mb-0">Characteristics</h5>
                                     </a>
-                                    <a class="seller d-flex align-items-center my-3" href="author.html">
+                                    <a class="seller d-flex align-items-center my-3" href="author.php">
                                         <img class="avatar-sm rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
                                         <span class="ml-2">@ArtNox</span>
                                     </a>
@@ -538,7 +426,7 @@
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index.php">
                                     <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
@@ -675,15 +563,6 @@
             </div>
         </div>
         <!--====== Modal Responsive Menu Area End ======-->
-
-        <!--====== Scroll To Top Area Start ======-->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="smooth-anchor">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-        <!--====== Scroll To Top Area End ======-->
-
     </div>
 
     <!-- ***** All jQuery Plugins ***** -->

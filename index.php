@@ -29,7 +29,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-7">
-                        <span>Diffler</span>
+                        <span>Diffler by Nejc Pirečnik</span>
                         <h1 class="mt-4">Discover, collect, and sell extraordinary NFTs</h1>
                         <p>Explore on the world's first & largest NFT marketplace</p>
                         <!-- Buttons -->
@@ -389,7 +389,7 @@
                                 <h3 class="mt-3 mb-0">Popular Collections</h3>
                             </div>
                             <div class="intro-btn">
-                                <a class="btn content-btn text-left" href="explore-2.php">Explore More</a>
+                                <a class="btn content-btn text-left" href="explore.php">Explore More</a>
                             </div>
                         </div>
                     </div>
@@ -612,7 +612,7 @@
                                 <h3 class="mt-3 mb-0">Explore</h3>
                             </div>
                             <div class="intro-btn">
-                                <a class="btn content-btn" href="explore-3.php">View All</a>
+                                <a class="btn content-btn" href="explore.php">View All</a>
                             </div>
                         </div>
                     </div>
@@ -1175,18 +1175,7 @@
             </div>
         </div>
         <!--====== Modal Responsive Menu Area End ======-->
-
-        <!--====== Scroll To Top Area Start ======-->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="smooth-anchor">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-        <!--====== Scroll To Top Area End ======-->
-
     </div>
-
-
     <!-- ***** All jQuery Plugins ***** -->
 
     <!-- jQuery(necessary for all JavaScript plugins) -->

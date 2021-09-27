@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>NetStorm - NFT Marketplace HTML Template</title>
+    <title>Diffler - NFT Marketplace </title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
@@ -22,120 +22,8 @@
 </head>
 
 <body>
-    <!--====== Preloader Area Start ======-->
-    <div id="netstorm-preloader" class="netstorm-preloader">
-        <!-- Preloader Animation -->
-        <div class="preloader-animation">
-            <!-- Spinner -->
-            <div class="spinner"></div>
-            <p class="fw-5 text-center text-uppercase">Loading</p>
-        </div>
-        <!-- Loader Animation -->
-        <div class="loader-animation">
-            <div class="row h-100">
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== Preloader Area End ======-->
-
     <div class="main">
-        <!-- ***** Header Start ***** -->
-        <header id="header">
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
-                    </a>
-                    <div class="ml-auto"></div>
-                    <!-- Navbar -->
-                    <ul class="navbar-nav items mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Explore <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="explore-1.html" class="nav-link">Explore Style 1</a></li>
-                                <li class="nav-item"><a href="explore-2.html" class="nav-link">Explore Style 2</a></li>
-                                <li class="nav-item"><a href="explore-3.html" class="nav-link">Explore Style 3</a></li>
-                                <li class="nav-item"><a href="explore-4.html" class="nav-link">Explore Style 4</a></li>
-                                <li class="nav-item"><a href="auctions.html" class="nav-link">Live Auctions</a></li>
-                                <li class="nav-item"><a href="item-details.html" class="nav-link">Item Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activity.html" class="nav-link">Activity</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Community <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="blog-single.html" class="nav-link">Blog Single</a></li>
-                                <li class="nav-item"><a href="help-center.html" class="nav-link">Help Center</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Pages <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="authors.html" class="nav-link">Authors</a></li>
-                                <li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-                                <li class="nav-item"><a href="wallet-connect.html" class="nav-link">Wallet Connect</a></li>
-                                <li class="nav-item"><a href="create.html" class="nav-link">Create</a></li>
-                                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                                <li class="nav-item"><a href="signup.html" class="nav-link">Signup</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggler -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="fas fa-bars toggle-icon m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action Button -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <a href="wallet-connect.html" class="btn ml-lg-auto btn-bordered-white"><i class="icon-wallet mr-md-2"></i>Wallet Connect</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- ***** Header End ***** -->
-
+        <?php include 'header.php' ?>
         <!-- ***** Breadcrumb Area Start ***** -->
         <section class="breadcrumb-area overlay-dark d-flex align-items-center">
             <div class="container">
@@ -143,11 +31,11 @@
                     <div class="col-12">
                         <!-- Breamcrumb Content -->
                         <div class="breadcrumb-content text-center">
-                            <h2 class="m-0">Create</h2>
+                            <h2 class="m-0">Author Profile</h2>
                             <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                                <li class="breadcrumb-item active">Create</li>
+                                <li class="breadcrumb-item active">Author</li>
                             </ol>
                         </div>
                     </div>
@@ -156,8 +44,8 @@
         </section>
         <!-- ***** Breadcrumb Area End ***** -->
 
-        <!-- ***** Create Area Start ***** -->
-        <section class="author-area">
+        <!-- ***** Author Area Start ***** -->
+        <section class="author-area explore-area popular-collections-area">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-12 col-md-4">
@@ -208,81 +96,221 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-7">
-                        <!-- Intro -->
-                        <div class="intro mt-5 mt-lg-0 mb-4 mb-lg-5">
-                            <div class="intro-content">
-                                <span>Get Started</span>
-                                <h3 class="mt-3 mb-0">Create Item</h3>
+                    <div class="col-12 col-md-8">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-12">
+                                <!-- Explore Menu -->
+                                <div class="explore-menu btn-group btn-group-toggle flex-wrap justify-content-center text-center mb-4" data-toggle="buttons">
+                                    <label class="btn active d-table text-uppercase p-2">
+                                        <input type="radio" value="all" checked class="explore-btn">
+                                        <span>All</span>
+                                    </label>
+                                    <label class="btn d-table text-uppercase p-2">
+                                        <input type="radio" value="art" class="explore-btn">
+                                        <span>Art</span>
+                                    </label>
+                                    <label class="btn d-table text-uppercase p-2">
+                                        <input type="radio" value="music" class="explore-btn">
+                                        <span>Music</span>
+                                    </label>
+                                    <label class="btn d-table text-uppercase p-2">
+                                        <input type="radio" value="collectibles" class="explore-btn">
+                                        <span>Collectibles</span>
+                                    </label>
+                                    <label class="btn d-table text-uppercase p-2">
+                                        <input type="radio" value="sports" class="explore-btn">
+                                        <span>Sports</span>
+                                    </label>
+                                </div>
                             </div>
                         </div>
-                        <!-- Item Form -->
-                        <form class="item-form card no-hover">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="input-group form-group">
-                                        <div class="custom-file">
-                                          <input type="file" class="custom-file-input" id="inputGroupFile01">
-                                          <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                        <div class="row items explore-items">
+                            <div class="col-12 col-md-6 item explore-item" data-groups='["art","sports"]'>
+                                <div class="card no-hover text-center">
+                                    <div class="image-over">
+                                        <a href="item-details.php">
+                                            <img class="card-img-top" src="assets/img/content/auction_1.jpg" alt="">
+                                        </a>
+                                        <!-- Author -->
+                                        <a class="author" href="authors.php">
+                                            <div class="author-thumb avatar-lg">
+                                                <img class="rounded-circle" src="assets/img/content/avatar_1.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Card Caption -->
+                                    <div class="card-caption col-12 p-0">
+                                        <!-- Card Body -->
+                                        <div class="card-body mt-4">
+                                            <a href="item-details.php">
+                                                <h5 class="mb-2">Virtual Worlds</h5>
+                                            </a>
+                                            <span>ERC-729</span>
+                                            <hr>
+                                            <div class="card-bottom d-flex justify-content-between">
+                                                <span>4.37 BNB</span>
+                                                <span><i class="icon-heart mr-2"></i>154</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <input type="text" class="form-control" name="name" placeholder="Item Name" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="textarea" placeholder="Description" cols="30" rows="3"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="price" placeholder="Item Price" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="royality" placeholder="Royality" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Size" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="copies" placeholder="No of Copies" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
-                                            <label class="form-check-label" for="inlineRadio1">Put on Sale</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">Instant Sale Price</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                            <label class="form-check-label" for="inlineRadio3">Unlock Purchased</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn w-100 mt-3 mt-sm-4" type="submit">Create Item</button>
                                 </div>
                             </div>
-                        </form>
+                            <div class="col-12 col-md-6 item explore-item" data-groups='["music"]'>
+                                <div class="card no-hover text-center">
+                                    <div class="image-over">
+                                        <a href="item-details.php">
+                                            <img class="card-img-top" src="assets/img/content/auction_2.jpg" alt="">
+                                        </a>
+                                        <!-- Author -->
+                                        <a class="author" href="authors.php">
+                                            <div class="author-thumb avatar-lg">
+                                                <img class="rounded-circle" src="assets/img/content/avatar_2.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Card Caption -->
+                                    <div class="card-caption col-12 p-0">
+                                        <!-- Card Body -->
+                                        <div class="card-body mt-4">
+                                            <a href="item-details.php">
+                                                <h5 class="mb-2">Virtual Worlds</h5>
+                                            </a>
+                                            <span>ERC-543</span>
+                                            <hr>
+                                            <div class="card-bottom d-flex justify-content-between">
+                                                <span>2.37 BNB</span>
+                                                <span><i class="icon-heart mr-2"></i>74</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 item explore-item" data-groups='["music","collectibles"]'>
+                                <div class="card no-hover text-center">
+                                    <div class="image-over">
+                                        <a href="item-details.php">
+                                            <img class="card-img-top" src="assets/img/content/auction_3.jpg" alt="">
+                                        </a>
+                                        <!-- Author -->
+                                        <a class="author" href="authors.php">
+                                            <div class="author-thumb avatar-lg">
+                                                <img class="rounded-circle" src="assets/img/content/avatar_3.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Card Caption -->
+                                    <div class="card-caption col-12 p-0">
+                                        <!-- Card Body -->
+                                        <div class="card-body mt-4">
+                                            <a href="item-details.php">
+                                                <h5 class="mb-2">Virtual Worlds</h5>
+                                            </a>
+                                            <span>ERC-932</span>
+                                            <hr>
+                                            <div class="card-bottom d-flex justify-content-between">
+                                                <span>1.89 BNB</span>
+                                                <span><i class="icon-heart mr-2"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 item explore-item" data-groups='["music","sports","art","collectibles"]'>
+                                <div class="card no-hover text-center">
+                                    <div class="image-over">
+                                        <a href="item-details.php">
+                                            <img class="card-img-top" src="assets/img/content/auction_4.jpg" alt="">
+                                        </a>
+                                        <!-- Author -->
+                                        <a class="author" href="authors.php">
+                                            <div class="author-thumb avatar-lg">
+                                                <img class="rounded-circle" src="assets/img/content/avatar_4.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Card Caption -->
+                                    <div class="card-caption col-12 p-0">
+                                        <!-- Card Body -->
+                                        <div class="card-body mt-4">
+                                            <a href="item-details.php">
+                                                <h5 class="mb-2">Virtual Worlds</h5>
+                                            </a>
+                                            <span>ERC-250</span>
+                                            <hr>
+                                            <div class="card-bottom d-flex justify-content-between">
+                                                <span>0.74 BNB</span>
+                                                <span><i class="icon-heart mr-2"></i>184</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 item explore-item" data-groups='["sports","art","music"]'>
+                                <div class="card no-hover text-center">
+                                    <div class="image-over">
+                                        <a href="item-details.php">
+                                            <img class="card-img-top" src="assets/img/content/auction_5.jpg" alt="">
+                                        </a>
+                                        <!-- Author -->
+                                        <a class="author" href="authors.php">
+                                            <div class="author-thumb avatar-lg">
+                                                <img class="rounded-circle" src="assets/img/content/avatar_5.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Card Caption -->
+                                    <div class="card-caption col-12 p-0">
+                                        <!-- Card Body -->
+                                        <div class="card-body mt-4">
+                                            <a href="item-details.php">
+                                                <h5 class="mb-2">Virtual Worlds</h5>
+                                            </a>
+                                            <span>ERC-167</span>
+                                            <hr>
+                                            <div class="card-bottom d-flex justify-content-between">
+                                                <span>4.23 BNB</span>
+                                                <span><i class="icon-heart mr-2"></i>126</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 item explore-item" data-groups='["art","sports"]'>
+                                <div class="card no-hover text-center">
+                                    <div class="image-over">
+                                        <a href="item-details.php">
+                                            <img class="card-img-top" src="assets/img/content/auction_6.jpg" alt="">
+                                        </a>
+                                        <!-- Author -->
+                                        <a class="author" href="authors.php">
+                                            <div class="author-thumb avatar-lg">
+                                                <img class="rounded-circle" src="assets/img/content/avatar_6.jpg" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Card Caption -->
+                                    <div class="card-caption col-12 p-0">
+                                        <!-- Card Body -->
+                                        <div class="card-body mt-4">
+                                            <a href="item-details.php">
+                                                <h5 class="mb-2">Virtual Worlds</h5>
+                                            </a>
+                                            <span>ERC-037</span>
+                                            <hr>
+                                            <div class="card-bottom d-flex justify-content-between">
+                                                <span>3.41 BNB</span>
+                                                <span><i class="icon-heart mr-2"></i>23</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- ***** Create Area End ***** -->
+        <!-- ***** Author Area End ***** -->
 
         <!--====== Footer Area Start ======-->
         <footer class="footer-area">
@@ -294,7 +322,7 @@
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index.php">
                                     <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
@@ -431,18 +459,9 @@
             </div>
         </div>
         <!--====== Modal Responsive Menu Area End ======-->
-
-        <!--====== Scroll To Top Area Start ======-->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="smooth-anchor">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-        <!--====== Scroll To Top Area End ======-->
-
     </div>
 
-
+    
     <!-- ***** All jQuery Plugins ***** -->
 
     <!-- jQuery(necessary for all JavaScript plugins) -->

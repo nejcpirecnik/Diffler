@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>NetStorm - NFT Marketplace HTML Template</title>
+    <title>Diffler - NFT Marketplace </title>
 
     <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
@@ -22,139 +22,8 @@
 </head>
 
 <body>
-    <!--====== Preloader Area Start ======-->
-    <div id="netstorm-preloader" class="netstorm-preloader">
-        <!-- Preloader Animation -->
-        <div class="preloader-animation">
-            <!-- Spinner -->
-            <div class="spinner"></div>
-            <p class="fw-5 text-center text-uppercase">Loading</p>
-        </div>
-        <!-- Loader Animation -->
-        <div class="loader-animation">
-            <div class="row h-100">
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-                <!-- Single Loader -->
-                <div class="col-3 single-loader p-0">
-                    <div class="loader-bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== Preloader Area End ======-->
-
     <div class="main">
-        <!-- ***** Header Start ***** -->
-        <header id="header">
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
-                    </a>
-                    <div class="ml-auto"></div>
-                    <!-- Navbar -->
-                    <ul class="navbar-nav items mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Explore <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="explore-1.html" class="nav-link">Explore Style 1</a></li>
-                                <li class="nav-item"><a href="explore-2.html" class="nav-link">Explore Style 2</a></li>
-                                <li class="nav-item"><a href="explore-3.html" class="nav-link">Explore Style 3</a></li>
-                                <li class="nav-item"><a href="explore-4.html" class="nav-link">Explore Style 4</a></li>
-                                <li class="nav-item"><a href="auctions.html" class="nav-link">Live Auctions</a></li>
-                                <li class="nav-item"><a href="item-details.html" class="nav-link">Item Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activity.html" class="nav-link">Activity</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Community <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="blog-single.html" class="nav-link">Blog Single</a></li>
-                                <li class="nav-item"><a href="help-center.html" class="nav-link">Help Center</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Pages <i class="fas fa-angle-down ml-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="authors.html" class="nav-link">Authors</a></li>
-                                <li class="nav-item"><a href="author.html" class="nav-link">Author</a></li>
-                                <li class="nav-item"><a href="wallet-connect.html" class="nav-link">Wallet Connect</a></li>
-                                <li class="nav-item"><a href="create.html" class="nav-link">Create</a></li>
-                                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                                <li class="nav-item"><a href="signup.html" class="nav-link">Signup</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggler -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="fas fa-bars toggle-icon m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action Button -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <a href="wallet-connect.html" class="btn ml-lg-auto btn-bordered-white"><i class="icon-wallet mr-md-2"></i>Wallet Connect</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- ***** Header End ***** -->
-
-        <!-- ***** Breadcrumb Area Start ***** -->
-        <section class="breadcrumb-area overlay-dark d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Breamcrumb Content -->
-                        <div class="breadcrumb-content text-center">
-                            <h2 class="m-0">Activity</h2>
-                            <ol class="breadcrumb d-flex justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active">Activity</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Breadcrumb Area End ***** -->
-
+    <?php include 'header.php' ?>
         <!-- ***** Activity Area Start ***** -->
         <section class="activity-area load-more">
             <div class="container">
@@ -195,80 +64,80 @@
                                 <ul class="list-unstyled">
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_5.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Walking On Air</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>14 ETH</strong> 4 hours ago <br>by <a href="author.html">@arham</a></p>
+                                            <p class="m-0">Bid listed for <strong>14 ETH</strong> 4 hours ago <br>by <a href="author.php">@arham</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_6.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Virtual Worlds</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago by <a href="author.html">@junaid</a></p>
+                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago by <a href="author.php">@junaid</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_7.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Collectibles</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago <br>by <a href="author.html">@yasmin</a></p>
+                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago <br>by <a href="author.php">@yasmin</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_8.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Digital Arts</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.html">@john</a></p>
+                                            <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.php">@john</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_9.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Design Illusions</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>42 ETH</strong> 7 hours ago by <a href="author.html">@william</a></p>
+                                            <p class="m-0">Bid listed for <strong>42 ETH</strong> 7 hours ago by <a href="author.php">@william</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_10.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Industrial</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>36 ETH</strong> 10 hours ago <br>by <a href="author.html">@sara</a></p>
+                                            <p class="m-0">Bid listed for <strong>36 ETH</strong> 10 hours ago <br>by <a href="author.php">@sara</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -277,54 +146,54 @@
                                 <ul class="list-unstyled">
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_6.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Virtual Worlds</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.html">@junaid</a></p>
+                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_7.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Collectibles</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago by <a href="author.html">@yasmin</a></p>
+                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago by <a href="author.php">@yasmin</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_8.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Digital Arts</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.html">@john</a></p>
+                                            <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.php">@john</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_9.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Photography</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>69 ETH</strong> 12 hours ago <br>by <a href="author.html">@junaid</a></p>
+                                            <p class="m-0">Bid listed for <strong>69 ETH</strong> 12 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -333,54 +202,54 @@
                                 <ul class="list-unstyled">
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_1.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Design Illusions</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.html">@junaid</a></p>
+                                            <p class="m-0">Bid listed for <strong>10 ETH</strong> 8 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_2.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Digital Arts</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago by <a href="author.html">@yasmin</a></p>
+                                            <p class="m-0">Bid listed for <strong>12 ETH</strong> 3 hours ago by <a href="author.php">@yasmin</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_3.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Photography</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.html">@john</a></p>
+                                            <p class="m-0">Bid listed for <strong>22 ETH</strong> 9 hours ago <br>by <a href="author.php">@john</a></p>
                                         </div>
                                     </li>
                                     <!-- Single Tab List -->
                                     <li class="single-tab-list d-flex align-items-center">
-                                        <a href="item-details.html">
+                                        <a href="item-details.php">
                                             <img class="avatar-lg" src="assets/img/content/auction_4.jpg" alt="">
                                         </a>
                                         <!-- Activity Content -->
                                         <div class="activity-content ml-4">
-                                            <a href="item-details.html">
+                                            <a href="item-details.php">
                                                 <h5 class="mt-0 mb-2">Virtual Worlds</h5>
                                             </a>
-                                            <p class="m-0">Bid listed for <strong>69 ETH</strong> 12 hours ago <br>by <a href="author.html">@junaid</a></p>
+                                            <p class="m-0">Bid listed for <strong>69 ETH</strong> 12 hours ago <br>by <a href="author.php">@junaid</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -437,7 +306,7 @@
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index.php">
                                     <img src="assets/img/logo/logo.png" alt="">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
@@ -574,15 +443,6 @@
             </div>
         </div>
         <!--====== Modal Responsive Menu Area End ======-->
-
-        <!--====== Scroll To Top Area Start ======-->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#header" class="smooth-anchor">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-        <!--====== Scroll To Top Area End ======-->
-
     </div>
 
     <!-- ***** All jQuery Plugins ***** -->
