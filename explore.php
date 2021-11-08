@@ -1,26 +1,15 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title  -->
     <title>Diffler - NFT Marketplace</title>
-
-    <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
-
-    <!-- ***** All CSS Files ***** -->
-
-    <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="webstoragestyle.css">
 </head>
-
 <body>
     <div class="main">
         <?php include 'header.php' ?>
@@ -31,7 +20,10 @@
                     <div class="col-12 col-md-8 col-lg-7">
                         <!-- Intro -->
                         <div class="intro text-center mb-4">
-                            <span>Explore</span>
+                            <span>Welcome, <span id="email_display"></span></span>
+                            <script>
+                                document.getElementById("email_display").innerHTML = localStorage.getItem("Email");
+                            </script>
                             <h3 class="mt-3 mb-0">Exclusive Digital Assets</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
                         </div>
@@ -488,6 +480,7 @@
 
     <!-- Active js -->
     <script src="assets/js/main.js"></script>
+    <script src="webstoragescript.js"></script>
 </body>
 
 </html>

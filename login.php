@@ -6,18 +6,11 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title  -->
     <title>Diffler - NFT Marketplace </title>
-
-    <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
-
-    <!-- ***** All CSS Files ***** -->
-
-    <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="webstoragestyle.css">
+    <script src="webstoragescript.js"></script>
 
 </head>
 
@@ -29,10 +22,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 col-lg-7">
-                        <!-- Intro -->
                         <div class="intro text-center">
                             <span>Login</span>
-                            <h3 class="mt-3 mb-0">Login to your Account</h3>
+                            <h3 class="mt-3 mb-0">Login to your account</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
                         </div>
                         <!-- Item Form -->
@@ -40,24 +32,16 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group mt-3">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter your Email" required="required">
+                                        <input type="email" id="userEmail" placeholder="Email" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group mt-3">
-                                        <input type="password" class="form-control" name="password" placeholder="Enter your Password" required="required">
+                                        <input type="password" id= "userPw" placeholder="Password" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
-                                            <label class="form-check-label" for="inlineRadio1">Remember Me</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn w-100 mt-3 mt-sm-4" type="submit">Sign In</button>
+                                    <input id="login_btn" type="submit" value="Login" onclick="store()">
                                 </div>
                                 <div class="col-12">
                                     <hr>

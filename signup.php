@@ -6,19 +6,13 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title  -->
     <title>Diffler - NFT Marketplace </title>
-
-    <!-- Favicon  -->
     <link rel="icon" href="assets/img/favicon.png">
-
-    <!-- ***** All CSS Files ***** -->
-
-    <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="webstoragestyle.css">
+    <script src="webstoragescript.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
 </head>
 
 <body>
@@ -40,32 +34,19 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group mt-3">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter your Name" required="required">
+                                        <input type="email" id="email" placeholder="Enter your email" class="form-control" required="required">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group mt-3">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter your Email" required="required">
+                                        <input type="password" id= "pw" placeholder="Enter your password" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <input type="password" class="form-control" name="password" placeholder="Enter your Password" required="required">
-                                    </div>
+                                    <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-group mt-3">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                            <label class="form-check-label" for="inlineRadio1">I agree to <a href="#">Privacy Policy</a></label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn w-100 mt-3 mt-sm-4" type="submit">Sign Up</button>
-                                </div>
-                                <div class="col-12">
-                                    <span class="d-block text-center mt-4">Already have an account? <a href="login.php">Login</a></span>
+                                    <span class="d-block text-center mt-4">Already have an account?<br><a href="login.php">Login</a></span>
                                 </div>
                                 <div class="col-12">
                                     <hr>
@@ -166,6 +147,9 @@
 
     <!-- Active js -->
     <script src="assets/js/main.js"></script>
+
+    <!--CUSTOM ALERTS-->
+    <script src="sweetalert2.all.min.js"></script>
 </body>
 
 </html>
