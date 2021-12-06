@@ -25,7 +25,7 @@
                         <div class="intro text-center">
                             <span>Login</span>
                             <h3 class="mt-3 mb-0">Login to your account</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
+                            <p>Login using your Email and Password.</p>
                         </div>
                         <!-- Item Form -->
                         <form class="item-form card no-hover">

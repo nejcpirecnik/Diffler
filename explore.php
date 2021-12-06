@@ -39,25 +39,17 @@
                             </label>
                             <label class="btn d-table text-uppercase p-2">
                                 <input type="radio" value="art" class="explore-btn">
-                                <span>Art</span>
+                                <span>Bizarro World</span>
                             </label>
                             <label class="btn d-table text-uppercase p-2">
                                 <input type="radio" value="music" class="explore-btn">
-                                <span>Music</span>
-                            </label>
-                            <label class="btn d-table text-uppercase p-2">
-                                <input type="radio" value="collectibles" class="explore-btn">
-                                <span>Collectibles</span>
-                            </label>
-                            <label class="btn d-table text-uppercase p-2">
-                                <input type="radio" value="Bizarro #1297" class="explore-btn">
-                                <span>Bizarro #1297</span>
+                                <span>Bored Ape Yacht Club</span>
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="row items explore-items">
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -86,7 +78,36 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["collectibles","Bizarro #1297"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music"]'>
+                        <div class="card">
+                            <div class="image-over">
+                                <a href="item-details.php">
+                                    <img class="card-img-top" src="assets/img/content/auction_14.png" alt="">
+                                </a>
+                            </div>
+                            <!-- Card Caption -->
+                            <div class="card-caption col-12 p-0">
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <a href="item-details.php">
+                                        <h5 class="mb-0">Bored Ape #8936</h5>
+                                    </a>
+                                    <div class="seller d-flex align-items-center my-3">
+                                        <span>Owned By</span>
+                                        <a href="author.php">
+                                            <h6 class="ml-2 mb-0">Richard</h6>
+                                        </a>
+                                    </div>
+                                    <div class="card-bottom d-flex justify-content-between">
+                                        <span>1.5 ETH</span>
+                                        <span>1 of 1</span>
+                                    </div>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="wallet-connect.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -115,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","music"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -144,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["Bizarro #1297","art","music"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["Bizarro #1297","art"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -173,7 +194,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -202,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["collectibles","Bizarro #1297"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -260,7 +281,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","art","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -289,7 +310,36 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297"]'>
+                        <div class="card">
+                            <div class="image-over">
+                                <a href="item-details.php">
+                                    <img class="card-img-top" src="assets/img/content/auction_13.png" alt="">
+                                </a>
+                            </div>
+                            <!-- Card Caption -->
+                            <div class="card-caption col-12 p-0">
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <a href="item-details.php">
+                                        <h5 class="mb-0">Bored Ape #9355</h5>
+                                    </a>
+                                    <div class="seller d-flex align-items-center my-3">
+                                        <span>Owned By</span>
+                                        <a href="author.php">
+                                            <h6 class="ml-2 mb-0">luke_hoffman</h6>
+                                        </a>
+                                    </div>
+                                    <div class="card-bottom d-flex justify-content-between">
+                                        <span>0.69 ETH</span>
+                                        <span>1 of 1</span>
+                                    </div>
+                                    <a class="btn btn-bordered-white btn-smaller mt-3" href="wallet-connect.php"><i class="icon-handbag mr-2"></i>Place a Bid</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","Bizarro #1297"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -318,7 +368,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art","music"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["art"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -347,7 +397,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["Bizarro #1297","art","music"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">
@@ -376,7 +426,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music","Bizarro #1297","collectibles"]'>
+                    <div class="col-12 col-sm-6 col-lg-3 item explore-item" data-groups='["music"]'>
                         <div class="card">
                             <div class="image-over">
                                 <a href="item-details.php">

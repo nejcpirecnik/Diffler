@@ -136,8 +136,8 @@
                                     <div class="card-caption col-12 p-0">
                                         <!-- Card Body -->
                                         <div class="card-body">
-                                            <div class="countdown-times mb-3">
-                                                <div class='countdown d-flex justify-content-center' data-date="2021-10-05"></div>
+                                        <div class="countdown-times mb-3">
+                                                <div class='countdown d-flex justify-content-center' data-date="2021-12-26"></div>
                                             </div>
                                             <a href="item-details.php">
                                                 <h5 class="mb-0">Collectibles</h5>
@@ -166,8 +166,8 @@
                                     <div class="card-caption col-12 p-0">
                                         <!-- Card Body -->
                                         <div class="card-body">
-                                            <div class="countdown-times mb-3">
-                                                <div class='countdown d-flex justify-content-center' data-date="2021-11-23"></div>
+                                        <div class="countdown-times mb-3">
+                                                <div class='countdown d-flex justify-content-center' data-date="2021-12-26"></div>
                                             </div>
                                             <a href="item-details.php">
                                                 <h5 class="mb-0">Collectibles</h5>

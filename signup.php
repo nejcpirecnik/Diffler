@@ -27,7 +27,7 @@
                         <div class="intro text-center">
                             <span>Signup</span>
                             <h3 class="mt-3 mb-0">Create an Account</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
+                            <p>Create your account using your email and password.</p>
                         </div>
                         <!-- Item Form -->
                         <form class="item-form card no-hover">
